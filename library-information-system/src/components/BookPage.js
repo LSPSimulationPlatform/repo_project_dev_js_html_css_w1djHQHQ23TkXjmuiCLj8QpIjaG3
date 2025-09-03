@@ -2,18 +2,18 @@ function BookPage({ onSelectPage }) {
     return (
         <div>
             <style>{`
-        .container {
-          text-align: center;
-          background-color: #f4f4f4;
-          border-radius: 5px;
-        }
-
-        body {   
+             body {   
           margin: 0;
           height: 100vh;
           display: flex;
           justify-content: center;
           align-items: center;
+        }
+
+        .container {
+          text-align: center;
+          background-color: #f4f4f4;
+          border-radius: 5px;
         }
 
         button {

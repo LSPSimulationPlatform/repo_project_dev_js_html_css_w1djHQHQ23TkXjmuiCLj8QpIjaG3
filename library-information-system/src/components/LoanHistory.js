@@ -4,8 +4,8 @@ function LoanHistory({ loans, onNavigate }) {
     const [filterCode, setFilterCode] = useState('');
 
     const filteredLoans = loans.filter(loan =>
-    loan.bookTitle.toLowerCase().includes(filterCode.toLowerCase()),
-  );
+        loan.bookTitle.toLowerCase().includes(filterCode.toLowerCase()),
+    );
 
     return (
         <div>
@@ -40,6 +40,14 @@ function LoanHistory({ loans, onNavigate }) {
                         marginLeft: '40px',
                         marginTop: '40px',
                     }}>
+
+                    <img style={{
+                        width: 250,
+                        marginLeft: 40,
+                        marginTop: 20,
+                        borderRadius: 5,
+                    }}
+                        src="https://ricketiki.com/wp-content/uploads/2019/02/6c2f5ebfafe34c4a9979e932b10cc5d1.jpg" alt="Loan Picture 1" />
                     <h1
                         style={{
                             marginLeft: '40px',
@@ -82,16 +90,16 @@ function LoanHistory({ loans, onNavigate }) {
                                 <tr>
                                     <td colSpan="4">No Books Found.</td>
                                 </tr>
-              ) : (
-                filteredLoans.map((loan, index) => (
-                    <tr key={index}>
-                        <td>{index + 1}</td>
-                        <td>{loan.bookTitle}</td>
-                        <td>{loan.borrowedDate}</td>
-                        <td>{loan.returnedDate}</td>
-                    </tr>
-                ))
-              )}
+                            ) : (
+                                filteredLoans.map((loan, index) => (
+                                    <tr key={index}>
+                                        <td>{index + 1}</td>
+                                        <td>{loan.bookTitle}</td>
+                                        <td>{loan.borrowedDate}</td>
+                                        <td>{loan.returnedDate}</td>
+                                    </tr>
+                                ))
+                            )}
                         </tbody>
                     </table>
                 </div>

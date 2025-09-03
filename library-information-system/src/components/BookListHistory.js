@@ -26,7 +26,7 @@ function BookListHistory({ books, onNavigate }) {
                         marginTop: 20,
                         borderRadius: 5,
                     }}
-                    src="https://videos.openai.com/vg-assets/assets%2Ftask_01k3pp7zw3fxqtkszmqyn0x0sc%2F1756329540_img_1.webp?st=2025-08-27T19%3A47%3A45Z&se=2025-09-02T20%3A47%3A45Z&sks=b&skt=2025-08-27T19%3A47%3A45Z&ske=2025-09-02T20%3A47%3A45Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ebb0df1-a278-4e2e-9c20-f2d373479b3a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=ccXXzyqy4ex6l7igDRisqlRbJjiDcF5Yep81HLF%2BlQE%3D&az=oaivgprodscus"
+                    src="https://media.istockphoto.com/id/1094357918/photo/looking-for-books-for-the-homework-project.jpg?s=612x612&w=0&k=20&c=lweZgsFrwTkD_0YikElwqUhkDGH8A_FGx-kqoPt5_oA="
                     alt="Book List 1" />
 
                 {/* İkinci şəkil */}
@@ -37,7 +37,7 @@ function BookListHistory({ books, onNavigate }) {
                         borderRadius: 5,
                         marginLeft: 20,
                     }}
-                    src="https://videos.openai.com/vg-assets/assets%2Ftask_01k3pp7zw3fxqtkszmqyn0x0sc%2F1756329540_img_0.webp?st=2025-08-27T19%3A47%3A45Z&se=2025-09-02T20%3A47%3A45Z&sks=b&skt=2025-08-27T19%3A47%3A45Z&ske=2025-09-02T20%3A47%3A45Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ebb0df1-a278-4e2e-9c20-f2d373479b3a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=RV891M8cZuO6x0fgGipMOj34ij7etC3lYe1u4LCL2Ok%3D&az=oaivgprodscus"
+                    src="https://www.ila.org/content/images/cms/april2.jpg/image-full;size$500,333.ImageHandler"
                     alt="Book List 2" />
 
                 {/* Başlıq */}

@@ -17,8 +17,8 @@ function App() {
     const [books, setBooks] = useState([]);
     const [users, setUsers] = useState([]);
     const [loans, setLoans] = useState([]); // ESlint makes problem with this code
-    console.log(loans);
-    console.log(users);// just to satisfy ESLint
+    
+    // just to satisfy ESLint
 
 
     const addBooks = (newBook) => {

@@ -52,22 +52,22 @@ function UserListHistory({ users, onNavigate }) {
                 }}>
                     <img
                         style={{
-                            width: '220px',
+                            width: '250px',
                             marginLeft: '40px',
                             borderRadius: '5px',
                             marginTop: '40px',
                         }}
-                        src="https://videos.openai.com/vg-assets/assets%2Ftask_01k3r1qa7wezktggzyg42hqre4%2F1756375054_img_1.webp?st=2025-08-28T08%3A57%3A37Z&se=2025-09-03T09%3A57%3A37Z&sks=b&skt=2025-08-28T08%3A57%3A37Z&ske=2025-09-03T09%3A57%3A37Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=fea36edb-a052-425e-a84a-436fdce0a7b4&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=Yow9Ouw1P3I14Ma655jAayrkz3j8vBs3ipF6p8dJ6SQ%3D&az=oaivgprodscus" />
+                        src="https://img.freepik.com/premium-photo/open-book-with-forest-growing-upwards-from-its-pages_1106493-478827.jpg" />
 
 
                     <img
                         style={{
-                            width: '220px',
+                            width: '250px',
                             marginLeft: '40px',
                             borderRadius: '5px',
                             marginTop: '40px',
                         }}
-                        src="https://videos.openai.com/vg-assets/assets%2Ftask_01k3r1qa7wezktggzyg42hqre4%2F1756375054_img_0.webp?st=2025-08-28T08%3A57%3A37Z&se=2025-09-03T09%3A57%3A37Z&sks=b&skt=2025-08-28T08%3A57%3A37Z&ske=2025-09-03T09%3A57%3A37Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=fea36edb-a052-425e-a84a-436fdce0a7b4&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=Q7efyK%2BhmNDB94ZxUXUrvr8Mm7LP%2FxVr%2BfFRqmqMXYA%3D&az=oaivgprodscus" />
+                        src="https://i.guim.co.uk/img/media/144c989fada0a89781d43024a7617e83a44b794d/746_1044_4242_2545/master/4242.jpg?width=465&dpr=1&s=none&crop=none" />
                     <h1 style={{
                         marginLeft: '40px',
                         marginTop: '40px',
@@ -91,7 +91,7 @@ function UserListHistory({ users, onNavigate }) {
                     <br />
                     <br />
 
-                    <table border>
+                    <table border="1">
                         <thead>
                             <tr>
                                 <th>#</th>

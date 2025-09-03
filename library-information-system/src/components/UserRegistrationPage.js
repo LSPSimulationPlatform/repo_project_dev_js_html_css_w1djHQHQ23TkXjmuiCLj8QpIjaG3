@@ -79,7 +79,7 @@ function UserRegistrationPage({ onAddUsers, onNavigate }) {
                         marginTop: '50px',
                         marginLeft: '50px',
                         marginRight: '50px',
-                        borderRadius: '5px',
+                        borderRadius: '5px',     
                     }}>
                     <img
                         style={{
@@ -88,8 +88,8 @@ function UserRegistrationPage({ onAddUsers, onNavigate }) {
                             borderRadius: '5px',
                             marginTop: '20px',
                         }}
-                        src="https://img.freepik.com/free-photo/front-view-group-young-people-teaming-up-work_23-2148816842.jpg?semt=ais_hybrid&w=740"
-                        alt="Users working together" />
+                        src="https://w0.peakpx.com/wallpaper/818/868/HD-wallpaper-lost-in-a-good-book-hot-3d-books-ancient.jpg"  
+                        alt="user" />
 
                     <h1
                         style={{
