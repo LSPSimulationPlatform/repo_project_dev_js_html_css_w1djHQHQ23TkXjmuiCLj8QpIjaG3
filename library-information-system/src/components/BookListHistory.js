@@ -94,7 +94,7 @@ function BookListHistory({ books, onNavigate }) {
                 <br />
 
                 {/* Cədvəl */}
-                <table
+                <table border="1"
                     style={{
                         marginLeft: '40px',
                         width: '80%',

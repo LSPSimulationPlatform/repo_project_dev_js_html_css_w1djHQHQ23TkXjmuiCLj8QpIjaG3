@@ -6,9 +6,12 @@ function BookPage({ onSelectPage }) {
           text-align: center;
           background-color: #f4f4f4;
           border-radius: 5px;
+        }
+
+        body {   
+          margin: 0;
           height: 100vh;
           display: flex;
-          flex-direction: column;
           justify-content: center;
           align-items: center;
         }
